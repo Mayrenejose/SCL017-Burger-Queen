@@ -1,0 +1,115 @@
+[
+                {
+                    "id" : 1,
+                    "name" : "cafe americano",
+                    "price" :5,
+                    "img" : "component/data/dataMenu/cafeAme.jpg"
+                },
+                {
+                    "id" : 2,
+                    "name" : "cafe con leche",
+                    "price" :7,
+                    "img" : "src/assents/cafeLeche.jpg"
+                },
+                {
+                    "id" : 3,
+                    "name" : "jugo de fruta natural",
+                    "price" :7,
+                    "img" : "./assents/jugo.jpg" 
+                },
+                {
+                    "id" : 4,
+                    "name" : "cafe americano",
+                    "price" :5,
+                    "img" : "./assents/cafeAme.jpg"
+                
+                },
+                {
+                    "id" : 5,
+                    "name" : "cafe con leche",
+                    "price" :7,
+                    "img" : "./assents/cafeLeche.jpg"
+                },
+                {
+                    "id" : 6,
+                    "name" : "jugo de fruta natural",
+                    "price" :7,
+                    "img" : "./assents/jugo.jpg" 
+                },
+                {
+                    "id" : 7,
+                    "name" : "Sandwich de jamón y queso",
+                    "price" :10,
+                    "img" : "./assents/sandwich.jpg"             
+                },
+                {                    
+                    "id" : 8,
+                    "name": "Agua 500ml",
+                    "price": 5,
+                    "img": "./assents/agua.jpg"
+                },  
+                {
+                    "id" : 9,
+                    "name": "Agua 750ml",
+                    "price": 7,
+                    "img": "./assents/agua.jpg"
+                },
+                {
+                    "id" : 10,
+                    "name": "Bebida/Gaseosa 500ml",
+                    "price": 7,
+                    "img": "./assents/bebida.png"
+                },
+                {
+                    "id" : 11,
+                    "name": "Bebida/Gaseosa 750ml",
+                    "price": 10,
+                    "img":"./assents/bebida.png"
+                },                            
+                {
+                    "id" : 12,
+                    "name" : "hamburguesa simple",
+                    "price" : 10,
+                    "img": "./assents/burgerSenci.jpg",
+                    "kind": {
+                        "option1": "carne",
+                        "option2": "pollo",
+                        "option3": "vegetariana"
+                    }                    
+                },
+                {
+                    "id" : 13,
+                    "name": "huevo",
+                    "price": 1
+                         
+                },
+                {
+                    "id" : 14,
+                    "name": "queso",
+                    "price": 1  
+                }, 
+                {
+                    "id" : 15,
+                    "name" : "hamburgesa doble",
+                    "price" : 15,
+                    "img": "./assents/burgerDoble.jpg",
+                    "kind": {
+                        "option1": "carne",
+                        "option2": "pollo",
+                        "option3": "vegetariana"
+                    }         
+                },             
+                {
+                    "id" : 16,
+                    "name": "Papas Fritas",
+                    "price": 5,
+                    "img": "./assents/papas-fritas.jpg"
+                },
+                {
+                    "id" : 17,
+                    "name": "Aros de Cebolla",
+                    "price": 5,
+                    "Img": "./assents/aros.jpg"
+                }
+ ]
+

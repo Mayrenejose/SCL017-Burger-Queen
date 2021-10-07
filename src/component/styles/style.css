@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+.buttonInicio{
+    background-color: #630A10 !important;
+    font-family: 'Roboto Slab', serif;
+    
+    margin-top: -75%;
+    margin-left: 19%;
+    width: 20%;
+   
+    
+}
+.buttonInicioOne{
+    background-color: #630A10 !important;
+    font-family: 'Roboto Slab', serif;
+    border: none;
+    margin-top: -16%;
+    margin-left: 19%;
+    width: 20%;
+    
+}
+
+.logoBQ {
+   width: 52%;   
+   margin-left: 45%;
+   margin-top: 5%;
+}
+
+.bottom {
+    border-radius: 3%;
+    width: 101%;      
+    margin-left: 12%;
+    margin-top: -2%;
+
+}
+
+.tableOne {
+    font-family: 'Roboto Slab', serif;
+    background-color: #630A10 !important;
+    margin-left: 26%;
+    margin-top: -1%;
+    width: 15%
+    
+}
+
+.tableTwo {
+    background-color: #630A10 !important;
+    margin-left: 4%;
+    margin-top: -1%;
+    width: 15%;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+.tableThree {
+    background-color: #630A10 !important;
+    margin-left: 63%;
+    margin-top: -7.5%;
+    width: 15%;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+.tableFour {
+    background-color: #630A10 !important;
+    margin-left: 81%;
+    margin-top: -12.5%;
+    width: 15%;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+.titleNameTable {
+    font-family: 'Roboto Slab', serif;
+    font-size: 195%;
+    margin-left: 17%;
+    margin-top: -5%;
+
+}
+
+.menuButtonsOne {
+    background-color: #630A10 !important;
+    font-family: 'Roboto Slab', serif;
+    font-size: 195%;
+    width: 14.5%;
+    margin-top: 9%;
+    margin-left: 3%;
+    
+}
+
+.menuButtons{
+    background-color: #630A10 !important;
+    font-family: 'Roboto Slab', serif;
+    font-size: 195%;
+    width: 14.5%;
+    margin-top: 18%;
+    margin-left: 3%;
+
+}
+
+.arrow {
+   width: 12%;   
+   margin-left: 3%;
+   margin-top: 12%;
+}
