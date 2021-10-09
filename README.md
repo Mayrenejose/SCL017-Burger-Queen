@@ -1,37 +1,25 @@
-# Burger Queen
+# Burger Queen :hamburger:
 
-## Índice
+Un pequeño restaurante de hamburguesas, que está creciendo, necesita una
+interfaz en la que puedan tomar pedidos usando una _tablet_, y enviarlos
+a la cocina para que se preparen ordenada y eficientemente.
 
-* [1. Preámbulo](#1-preámbulo)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
+## Flujo de trabajo:
 
-***
+![img](src/assents/flujo.jpg)
 
-## 1. Preámbulo
+## Prototipo de baja fidelidad:
 
-[React](https://es.reactjs.org/) y [Angular](https://angular.io/)
-son algunos de los _frameworks_ y _librerías_ de JavaScript más utilizados por
-lxs desarrolladorxs alrededor del mundo, y hay una razón para eso.
-En el contexto del navegador, [_mantener la interfaz sincronizada con el estado
-es difícil_](https://medium.com/dailyjs/the-deepest-reason-why-modern-javascript-frameworks-exist-933b86ebc445).
-Al elegir un _framework_ o _librería_ para nuestra interfaz, nos apoyamos en una
-serie de convenciones e implementaciones _probadas_ y _documentadas_ para
-resolver un problema común a toda interfaz web. Esto nos permite concentrarnos
-mejor (dedicar más tiempo) en las caractrísticas _específicas_ de
-nuestra aplicación.
+![img](src/assents/bajaF.jpeg)
 
-Cuando elegimos una de estas tecnologías no solo importamos un pedacito de
-código para reusarlo (lo cuál es un gran valor per se), si no que adoptamos una
-**arquitectura**, una serie de **principios de diseño**, un **paradigma**, unas
-**abstracciones**, un **vocabulario**, una **comunidad**, etc...
+## Prototipos de alta fidelidad:
 
-Como desarrolladora Front-end, estos kits de desarrollo pueden resultarte
-de gran ayuda para implementar rápidamente características de los proyectos en
-los que trabajes.
+![img](src/assents/BurgerQ.png)
+
+![img](src/assents/BurgerQ2.png)
+
+![img](src/assents/BurgerQ1.png)
+
 
 ## 2. Resumen del proyecto
 

@@ -103,3 +103,20 @@
    margin-left: 3%;
    margin-top: 12%;
 }
+
+.grid{
+    display: grid;
+    
+    grid-template-columns: repeat(2, 0.5fr);
+    grid-template-rows: repeat(2, 0.5fr);
+    grid-column-gap: 9px;
+    grid-row-gap: 9px;
+ }
+
+.imgMenuOne{   
+    width: 15%;
+    margin-top: 20%;
+    margin-left: 20%;  
+       
+
+}

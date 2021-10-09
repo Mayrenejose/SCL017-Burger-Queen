@@ -6,25 +6,19 @@ const Menu = () => {
 
     return (
         <div>
-            <ul>                
-                {  
-                data.map(item => (
+            <ul>
+                {
+                    data.map(item => (
 
-                    <div>
-                        {/* <button key={item.id}> {item.img}</button> */}
-                            {/* <img src={item.img} alt="menu" />    */}      
-                            {item.img}
-                    </div>
+                        <div className='grid' key={item.id}>                           
+                            <input name="submit" className='imgMenuOne' type="image" src={item.img} alt="menu"/>
 
-                  
+                        </div>
 
-                ))
+                    ))
 
-                    /* data.filter(data => data.length >=6)  */                                                                   
-                      
 
-                    
-                }                
+                }
 
             </ul>
 
@@ -39,11 +33,11 @@ export default Menu;
 /* data.map(item => (
 
                         <div key={item.id}>
-                            <button> 
-                                <img src={item.img} alt="menu" />         
+                            <button>
+                                <img src={item.img} alt="menu" />
                             </button>
                         </div>
 
-                      
+
 
                     ))*/
