@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
 
 .buttonInicio{
     background-color: #630A10 !important;
@@ -26,19 +26,11 @@
    margin-top: 5%;
 }
 
-.bottom {
-    border-radius: 3%;
-    width: 101%;      
-    margin-left: 12%;
-    margin-top: -2%;
-
-}
-
 .tableOne {
     font-family: 'Roboto Slab', serif;
     background-color: #630A10 !important;
-    margin-left: 26%;
-    margin-top: -1%;
+    margin-left: 27%;
+    margin-top: -7%;
     width: 15%
     
 }
@@ -46,7 +38,7 @@
 .tableTwo {
     background-color: #630A10 !important;
     margin-left: 4%;
-    margin-top: -1%;
+    margin-top: -7%;
     width: 15%;
     font-family: 'Roboto Slab', serif;
     
@@ -55,7 +47,7 @@
 .tableThree {
     background-color: #630A10 !important;
     margin-left: 63%;
-    margin-top: -7.5%;
+    margin-top: -11.5%;
     width: 15%;
     font-family: 'Roboto Slab', serif;
     
@@ -64,7 +56,7 @@
 .tableFour {
     background-color: #630A10 !important;
     margin-left: 81%;
-    margin-top: -12.5%;
+    margin-top: -16%;
     width: 15%;
     font-family: 'Roboto Slab', serif;
     
@@ -75,6 +67,7 @@
     font-size: 195%;
     margin-left: 17%;
     margin-top: -5%;
+    text-align: center;
 
 }
 
@@ -83,8 +76,8 @@
     font-family: 'Roboto Slab', serif;
     font-size: 195%;
     width: 14.5%;
-    margin-top: 9%;
-    margin-left: 3%;
+    margin-top: -100%;
+    margin-left: 1%;
     
 }
 
@@ -93,30 +86,88 @@
     font-family: 'Roboto Slab', serif;
     font-size: 195%;
     width: 14.5%;
-    margin-top: 18%;
-    margin-left: 3%;
+    margin-top: -60%;
+    margin-left: -15%;
 
 }
 
 .arrow {
    width: 12%;   
-   margin-left: 3%;
-   margin-top: 12%;
+   margin-left: -14%;
+   margin-top: -10%;
 }
 
-.grid{
-    display: grid;
-    
-    grid-template-columns: repeat(2, 0.5fr);
-    grid-template-rows: repeat(2, 0.5fr);
-    grid-column-gap: 9px;
-    grid-row-gap: 9px;
- }
-
 .imgMenuOne{   
-    width: 15%;
-    margin-top: 20%;
-    margin-left: 20%;  
+    width: 80%;
+    margin-top: 7%;
+    margin-left: 63%;
+    border: none;
+    border-radius: 6%;
+    background-color: white;
+    opacity: 85%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 100%;
+    text-align: center;
        
+}
+
+.inputCustomer{
+    border: none;
+    border-radius: 2%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 106%;
+    text-align: center;
+    background-color: #FCF0C8 !important;
+    padding: 1%;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+.menuAndAbstract{
+    display: flex;
+    flex-direction: row;
+}
+
+.abstract{
+    background-color: #FCF0C8 !important;
+    margin-left: 21%;
+    width: 40%;
+    height: auto;
+    border-radius: 3%;
+}
+
+.bug {
+    width: 11%;
+    margin-left: 42%;
+}
+
+.orderSummary{
+    font-family: 'Roboto Slab', serif;
+    font-size: 131%;
+    text-align: center;
+    margin-top: -4%;
+
+}
+
+.orderData{
+    font-family: 'Roboto Slab', serif;
+    font-size: 100%;    
+    margin-top: -1%;  
+}
+
+.orderTotal{
+    font-family: 'Roboto Slab', serif;
+    font-size: 121%;    
+    margin-top: 39%; 
+    
+}
+
+.goKitchen{
+    background-color: #630A10 !important;
+    font-family: 'Roboto Slab', serif;
+    font-size: 195%;
+    width: 41.5%;
+    margin-top: 49%;
+    margin-left: 27%;
 
 }

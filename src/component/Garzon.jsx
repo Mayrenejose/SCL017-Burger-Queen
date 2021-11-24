@@ -1,25 +1,31 @@
-import React from 'react';
-//import data from './data/data.json';
+import React,{useState} from 'react';
 import { Helmet } from "react-helmet";
-//import bottom from '../assents/fondo.jpg';
 import TableName from './TableName';
 import ButtonsMenu from './ButtonsMenu';
 import BackArrow from './BackArrow';
 import Menu from './Menu';
 
 
-const Garzon = () => {
-
+const Garzon = ({compra: purchase, setCompra, total}) => {
+    const [name, setName] = useState('');
+    const [table, setTable] = useState('');
+   
     return (
         <React.Fragment>
             <Helmet>
                 <style>{'body { background-color: #FACE7F; }'}</style>
             </Helmet>
-            <TableName />
-            <ButtonsMenu />
+            <TableName name= {name} setName={setName} table={table} setTable={setTable} />
+            <Menu 
+            name= {name} 
+            table= {table}
+            compra={purchase}
+            setCompra={setCompra}
+            total={total}
 
-            <BackArrow />
-            <Menu />
+            />
+            <ButtonsMenu />             
+           <BackArrow />             
         </React.Fragment>
 
     )
@@ -28,18 +34,3 @@ const Garzon = () => {
 
 export default Garzon
 
-
-/*   <ul>
-{
-    data.map(item => (
-
-        <li key ={item.id}>{item.name}</li>
-
-  ))
-}
-
-<div>
-                <img className="bottom" src={bottom} alt="fondo madera"></img>
-            </div>
-
-</ul>*/

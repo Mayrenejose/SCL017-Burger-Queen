@@ -1,55 +1,33 @@
 import React from 'react';
 import { ButtonToggle } from 'reactstrap';
 
-class TableName extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = { 
-         value: '' ,
-         number: '' 
-        }
-        
-        this.inputChange = this.inputChange.bind(this);
-        this.handleName = this.handleName.bind(this);
-        this.onClick = this.onClick.bind(this);
-    }
+export default function TableName({ name, setName, table, setTable}) {
 
-    inputChange = (event) => {
-        this.setState({ value: event.target.value });
-    }
-
-    handleName = (event) => {
-        event.preventDefault()
-        console.log(this.state.value);
-        
-    }
-
-    onClick = (event) => {
-        this.setState({ number : event.target.name})
-        console.log(this.state.number);
-        
-    }
-
-    render() {
-
+ 
     return (
-            <div className = 'customerName' >
-            <form onSubmit={this.handleName}>
-                <input className='inputCustomer' type="text" name="name" id="nameCustomer" placeholder="Nombre cliente" value={this.state.value} onChange={this.inputChange} />
-                <input className='clickCustomer' type="submit" value="Click" />
+        <div>
+            <form>
+                
+                <input type="text"
+                    name="cliente"
+                    className= 'inputCustomer'
+                    placeholder='Nombre cliente'
+                    value={name}
+                    onChange={(e) => setName(e.target.value)} />
             </form>
             <div>
-               <ButtonToggle className='tableOne' size='lg' type='button' name = 'MESA 1' onClick={this.onClick}>MESA 1</ButtonToggle>
-               <ButtonToggle className='tableTwo' size='lg' type='button' name = 'MESA 2' onClick={this.onClick}>MESA 2</ButtonToggle>
-               <ButtonToggle className='tableThree' size='lg' type='button' name = 'MESA 3' onClick={this.onClick}>MESA 3</ButtonToggle>
-               <ButtonToggle className='tableFour' size='lg' type='button' name = 'MESA 4' onClick={this.onClick}>MESA 4</ButtonToggle>
-           </div>
-           <p className='titleNameTable'>Hola {this.state.number} {this.state.value}</p>
+                    <ButtonToggle value='Mesa 1' className='tableOne' size='lg' type='button' name='MESA 1' onClick={(e) => setTable(e.target.value)}>MESA 1</ButtonToggle>
+
+                    <ButtonToggle value='Mesa 2' className='tableTwo' size='lg' type='button' name='MESA 2' onClick={(e) => setTable(e.target.value)}>MESA 2</ButtonToggle>
+
+                    <ButtonToggle value='Mesa 3' className='tableThree' size='lg' type='button' name='MESA 3' onClick={(e) => setTable(e.target.value)}>MESA 3</ButtonToggle>
+
+                    <ButtonToggle value='Mesa 4' className='tableFour' size='lg' type='button' name='MESA 4' onClick={(e) => setTable(e.target.value)}>MESA 4</ButtonToggle>
+                </div>
+                <p className='titleNameTable'>Cliente {name} {table}</p>
             </div>
-            
-        )
-    }
 
-};
+      
+    )
+}
 
-export default TableName;

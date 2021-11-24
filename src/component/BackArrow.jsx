@@ -6,10 +6,10 @@ import {
 
 const BackArrow = () => {
     return (
-        <div>
+        <React.Fragment>
            <Link to='/'><img className='arrow' src={ arrow } alt="back" /></Link>        
             
-        </div>
+        </React.Fragment>
     )
 }
 

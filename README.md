@@ -6,7 +6,7 @@ a la cocina para que se preparen ordenada y eficientemente.
 
 ## Flujo de trabajo:
 
-![img](src/assents/flujo.jpg)
+![img](src/assents/flujo.png)
 
 ## Prototipo de baja fidelidad:
 
